@@ -1,0 +1,21 @@
+{
+  "name": "pawhomes-server",
+  "version": "1.0.0",
+  "description": "PawHomes Pet Adoption System Server - MongoDB Node.js Driver",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node tests/runner.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.4",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.0",
+    "multer": "^2.0.2"
+  }
+}
